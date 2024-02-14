@@ -11,6 +11,7 @@ import { LifecycleComponent } from './components/lifecycle/lifecycle.component';
 import { PedidosComponent } from './components/pedidos/pedidos.component';
 import { ProductosComponent } from './components/productos/productos.component';
 import { UsuariosComponent } from './components/usuarios/usuarios.component';
+import { MainLayoutComponent } from './layouts/main-layout/main-layout.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { UsuariosComponent } from './components/usuarios/usuarios.component';
     LifecycleComponent,
     PedidosComponent,
     ProductosComponent,
-    UsuariosComponent
+    UsuariosComponent,
+    MainLayoutComponent
   ],
   imports: [
     BrowserModule,
